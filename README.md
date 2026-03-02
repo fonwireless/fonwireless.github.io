@@ -1,4 +1,4 @@
-# FitZone Gym - Fitness Website
+# Fonwireless Website
 
 A modern, responsive fitness gym website built with [Astro](https://astro.build), featuring a clean design and comprehensive information about gym facilities, classes, pricing, and more.
 
@@ -181,20 +181,3 @@ Contributions are welcome! Please read our [Code of Conduct](CODE_OF_CONDUCT.md)
 ## 🔒 Security
 
 If you discover a security vulnerability, please see our [Security Policy](SECURITY.md) for information on how to report it.
-
-## 📧 Contact
-
-For questions or support, please contact:
-- Email: info@fitzonegym.com
-- Website: [Your Website URL]
-
-## 🙏 Acknowledgments
-
-- [Astro](https://astro.build) team for the amazing framework
-- [Tailwind CSS](https://tailwindcss.com) for the utility-first CSS framework
-- [Remix Icon](https://remixicon.com) for the beautiful icons
-- All contributors and users of this project
-
----
-
-Made with ❤️ for fitness enthusiasts
