@@ -1,0 +1,37 @@
+---
+interface Props {
+  model: string;
+  price: string;
+  storage: string;
+  condition: string;
+  image: string;
+}
+
+const { model, price, storage, condition, image } = Astro.props;
+---
+
+<article class="bg-slate-900 rounded-xl border border-slate-700 overflow-hidden hover:border-orange-500 transition-all transform hover:scale-105">
+  <div class="aspect-[4/3] bg-slate-800 overflow-hidden">
+    {image ? (
+      <img src={image} alt={model} class="w-full h-full object-cover" loading="lazy" />
+    ) : (
+      <div class="w-full h-full flex items-center justify-center text-gray-500">
+        <i class="ri-smartphone-line text-5xl"></i>
+      </div>
+    )}
+  </div>
+  <div class="p-6">
+    <h3 class="text-2xl font-bold text-white mb-2">{model}</h3>
+    <p class="text-orange-500 text-xl font-semibold mb-4">${price || "Contact for price"}</p>
+    <div class="space-y-2 text-gray-300">
+      <p class="flex items-center gap-2">
+        <i class="ri-sd-card-line text-orange-500"></i>
+        <span>{storage || "Storage not listed"}</span>
+      </p>
+      <p class="flex items-center gap-2">
+        <i class="ri-shield-check-line text-orange-500"></i>
+        <span>{condition || "Condition not listed"}</span>
+      </p>
+    </div>
+  </div>
+</article>
