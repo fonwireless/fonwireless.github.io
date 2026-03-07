@@ -4,7 +4,7 @@ export const siteData = {
   description: "Trusted same-day phone repairs, quality accessories, and certified used phones in Ottawa.",
   address: "1642 Merivale Rd, Ottawa, ON K2G 0B1",
   phone: "+1 (613) 614-9047",
-  email: "hello@ottawamobilerepair.ca",
+  email: "fonwireless1@gmail.com",
   social: {
     facebook: "https://www.facebook.com/people/Fon-Wireless/61578003994757/#",
     instagram: "https://www.instagram.com/fone_wireless/",
